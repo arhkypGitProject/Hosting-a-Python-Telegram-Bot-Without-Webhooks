@@ -107,3 +107,13 @@ node --version
 npm --version
 pm2 --version
 ```
+# Step 5: Installing and Configuring FileZilla
+
+<b>[FileZilla](https://filezilla-project.org) is an FTP/SFTP client that we will use to transfer our Telegram bot files from our local computer to the VPS server.
+
+After installing FileZilla, launch the application. You will see a window similar to the one shown below:
+</b>
+
+<img width="1176" height="887" alt="image" src="https://github.com/user-attachments/assets/f4aca42a-bc81-4a05-89f9-985e791af267" />
+
+Next, in the **Local Site** panel, either enter the path to your Telegram bot's project folder or use the built-in file browser to locate it manually.
