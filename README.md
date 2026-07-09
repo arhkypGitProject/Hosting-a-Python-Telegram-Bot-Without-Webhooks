@@ -168,3 +168,93 @@ folder_bot
 ```
 
 If you see your bot's folder name, it means that the files were uploaded successfully and you can continue with the next steps.
+
+If everything is correct, enter the following command to open your bot's folder:
+
+```bash
+cd FOLDER_NAME
+```
+
+Replace `FOLDER_NAME` with the name of your bot's folder.
+
+Example:
+
+```bash
+cd folder_bot
+```
+
+After running this command, you will be moved inside your bot's project directory.
+
+After running the `cd` command, your terminal path should change to your bot's directory.
+
+Example:
+
+```bash
+root@ServerName:~/folder_bot#
+```
+
+This means that you are now inside the bot's project folder and can continue with the next setup steps.
+
+Next, run the following commands:
+
+
+```bash
+
+# Check the files in the current directory
+
+ls
+
+
+
+# Install all required Python dependencies
+
+pip3 install -r requirements.txt
+
+
+
+# Start the bot using PM2
+
+pm2 start main.py --interpreter python3
+
+```
+
+Replace `main.py` with the name of your bot's main startup file if it has a different name.
+
+After running these commands, your Telegram bot should start running on the VPS server.
+
+To check if your bot process is running, use the following command:
+
+```bash
+pm2 list
+```
+If the bot is running successfully, you will see your process in the list with the status **online**.
+
+Example:
+
+```bash
+┌────┬──────────────┬─────────┬────────┐
+│ id │ name         │ status  │ mode   │
+├────┼──────────────┼─────────┼────────┤
+│ 0  │ main         │ online  │ fork   │
+└────┴──────────────┴─────────┴────────┘
+```
+# Conclusion
+
+That's it! Your Telegram bot is now successfully deployed and running on your VPS server.
+
+You have completed all the necessary steps:
+- Configured the VPS server
+- Connected to the server via SSH
+- Uploaded the bot files using FileZilla
+- Installed the required dependencies
+- Started the bot using PM2
+
+Your bot should now be running continuously in the background.
+
+## Support the Project ⭐
+
+If this guide helped you deploy your Telegram bot, consider giving this repository a **star ⭐**.
+
+Your support helps me stay motivated to create more useful guides, tutorials, and open-source projects.
+
+Thank you for your support and for being part of this project! 🚀
