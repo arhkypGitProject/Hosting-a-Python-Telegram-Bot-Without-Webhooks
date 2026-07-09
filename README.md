@@ -77,3 +77,33 @@ If the login still fails, try **typing the password manually** instead of copyin
 
 <img width="720" height="636" alt="image" src="https://github.com/user-attachments/assets/ad9fc180-1f16-46eb-903c-e415a0e63caa" />
 
+# Step 4: Updating the System and Installing Python
+
+<b>Run the following commands one by one to update your system and install the latest Python packages:</b>
+
+```bash
+# Update package lists
+sudo apt update
+
+# Upgrade installed packages
+sudo apt upgrade -y
+
+# Install Python and required tools
+sudo apt install -y python3 python3-pip python3-venv
+
+# Install Node.js and npm
+sudo apt install -y nodejs npm
+
+# Install PM2 globally
+sudo npm install -g pm2
+
+# Remove unnecessary packages
+sudo apt autoremove -y
+
+# Verify the installations
+python3 --version
+pip3 --version
+node --version
+npm --version
+pm2 --version
+```
