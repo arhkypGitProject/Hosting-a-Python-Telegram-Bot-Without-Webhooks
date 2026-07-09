@@ -1,7 +1,21 @@
 # Hosting a Python Telegram Bot Without Webhooks GUIDE
+
+<div align="center">
+  <a href="https://github.com/arhkypGitProject" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=181717&logoColor=white&style=for-the-badge" height="25" />
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=arhkypGitProject.Hosting-a-Python-Telegram-Bot-Without-Webhooks" />
+</div>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python" height="20" /> Python / Aiogram
+</div>
+
+
 * Simple deployment of an Aiogram 3 Telegram bot on Ubuntu VPS (AdminVPS.ru)
-
-
 
 
 <b>*Before we get started, I'd like to briefly explain which hosting provider I used and why.*
