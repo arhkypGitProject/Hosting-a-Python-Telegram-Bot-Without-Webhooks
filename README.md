@@ -143,3 +143,28 @@ On the right side, you should see the **root** folder. This means that you have 
 <b>Select the folder that contains your bot's main directories and the startup file.
 
 Right-click on the folder and choose **Upload** from the context menu to begin transferring the files to the VPS server.</b>
+
+After the transfer is complete, the files should appear here:
+
+<img width="1179" height="753" alt="изображение_2026-07-09_213649831-fotor-20260709214759" src="https://github.com/user-attachments/assets/d74af0cd-9157-41ac-9d59-041ff659340c" />
+
+### After this, you can safely close FileZilla and return to the console.
+
+# Step 7: Running the Bot on the VPS Server
+
+<b>After uploading the files to the server using FileZilla, open the console and connect to the VPS server the same way as we did earlier in **Step 2**.</b>
+
+First, check that your bot folder has been uploaded correctly by using the `ls` command:
+
+```bash
+ls
+```
+
+The output should look similar to this:
+
+```bash
+root@ServerName:~# ls
+folder_bot
+```
+
+If you see your bot's folder name, it means that the files were uploaded successfully and you can continue with the next steps.
