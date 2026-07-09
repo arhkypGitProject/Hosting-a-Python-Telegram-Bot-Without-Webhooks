@@ -62,3 +62,18 @@ ssh root@185.221.160.4
 <b>In this case, the SSH connection will be established automatically. You do not need to enter the SSH command manually, unlike when using CMD.</b>
 
 # Step 3: Logging In and Entering the Root Password
+
+After entering the command through CMD or opening the web console, you will be prompted to enter the **root password**.
+
+In my case, the password is available on the server information page, so I can simply **copy and paste** it into the console.
+
+> **Important:** The paste shortcut is not the same in every console. On many Linux-based consoles, **Ctrl + V** does not work. Instead, paste the password by **right-clicking** inside the console window.
+
+> **Note:** If the password is not visible while typing, this is completely normal. Linux does **not** display any characters (not even dots or asterisks) when entering a password. Simply type or paste the password and press **Enter**.
+
+If the login still fails, try **typing the password manually** instead of copying and pasting it.
+
+### <b>After entering the correct password, you should see output similar to the following:</b>
+
+<img width="720" height="636" alt="image" src="https://github.com/user-attachments/assets/ad9fc180-1f16-46eb-903c-e415a0e63caa" />
+
