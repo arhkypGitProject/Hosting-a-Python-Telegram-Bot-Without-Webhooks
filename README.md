@@ -117,3 +117,29 @@ After installing FileZilla, launch the application. You will see a window simila
 <img width="1176" height="887" alt="image" src="https://github.com/user-attachments/assets/f4aca42a-bc81-4a05-89f9-985e791af267" />
 
 Next, in the **Local Site** panel, either enter the path to your Telegram bot's project folder or use the built-in file browser to locate it manually.
+
+<b>After locating your bot's folder, it is time to connect to the VPS server using FileZilla.
+
+### Before connecting, it is recommended to close the console session that was used for the previous SSH connection.</b>
+
+<b>At the top of the FileZilla window, you will see the following fields: **Host**, **Username**, **Password**, and **Port**.
+
+Fill in these fields as follows:
+
+- **Host** — Enter the IP address of your VPS server.
+- **Username** — Enter `root` (**important: use lowercase letters**).
+- **Password** — Enter your root password from the VPS server information page.
+- **Port** — This field is important. In some cases, the port is not provided by the hosting provider. The standard SSH port is usually `22` (sometimes `21` is used for FTP, but for SSH connections it is almost always `22`).
+
+After filling in all the fields, click **Quickconnect** and wait for the connection to be established.
+
+On the right side, you should see the **root** folder. This means that you have successfully connected to your VPS server.
+</b>
+
+<img width="1179" height="753" alt="изображение_2026-07-09_213649831-fotor-20260709214111" src="https://github.com/user-attachments/assets/ee77dd20-b07b-4dd1-8464-d4e1a26e2b1e" />
+
+# Step 6: Uploading Bot Files to the VPS Server
+
+<b>Select the folder that contains your bot's main directories and the startup file.
+
+Right-click on the folder and choose **Upload** from the context menu to begin transferring the files to the VPS server.</b>
